@@ -77,5 +77,13 @@ services:
            - "8080:80"
         networks:
            - proxy
+    feedback-backend:
+        container_name: feedback-backend
+        build: ./feedback-backend/.
+        restart: unless-stopped
+        ports:
+           - 3001:3001
+        volumes:
+           - ./feedback-backend/database.json:/app/database.json
 networks:
-    proxy:
+       proxy:
