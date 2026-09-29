@@ -1,0 +1,2 @@
+2026/09/29 11:17:04 [error] 808#808: *1 vaultwarden could not be resolved (3: Host not found), client: 2.63.139.171, server: app1.*, request: "GET / HTTP/1.1", host: "app1.dnhpg.kitek-pg.ru"
+2026/09/29 11:17:04 [error] 808#808: *1 vaultwarden could not be resolved (3: Host not found), client: 2.63.139.171, server: app1.*, request: "GET /favicon.ico HTTP/1.1", host: "app1.dnhpg.kitek-pg.ru", referrer: "https://app1.dnhpg.kitek-pg.ru/"
